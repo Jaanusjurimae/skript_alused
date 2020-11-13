@@ -18,4 +18,13 @@ Kasutamine a) lisamine jälgimisele ja muudatuste fikseerimine
 git log
 git show comiti_hash
 
+remote kasutamine
+github repo lisamiseks
 
+root@debian:/home/jaanus/skript_alused# git remote add origin https://github.com/Jaanusjurimae/skript_alused.git
+root@debian:/home/jaanus/skript_alused# git branch -M main
+root@debian:/home/jaanus/skript_alused# git push -u origin main
+Username for 'https://github.com': jaanus.jurimae@khk.ee
+Password for 'https://jaanus.jurimae@khk.ee@github.com':
+
+push käsk lükkamiseks.
