@@ -3,3 +3,19 @@ Paigaldamine linux süsteemis apt-get install
 
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
+
+initsialiseerimine
+töökaustas toimub ainult üks kord
+git init
+git status
+
+Kasutatud käsud
+
+Kasutamine a) lisamine jälgimisele ja muudatuste fikseerimine
+ git status
+ git add faili_nimi
+ git commit -m "muudatuse kirjeldus"
+git log
+git show comiti_hash
+
+
