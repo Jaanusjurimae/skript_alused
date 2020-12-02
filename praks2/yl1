@@ -1,0 +1,10 @@
+echo "Tere"
+
+if whoami; then
+
+	echo "It works"
+fi
+
+echo who am i 
+
+skript
